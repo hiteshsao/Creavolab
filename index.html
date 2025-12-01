@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to CrevoLab</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+
+    
+<!-- FontAwesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body class="dark">
+
+    <!-- Theme Toggle -->
+    <button id="themeToggle" class="theme-btn">🌙</button>
+
+    <!-- Navigation -->
+    <header class="nav">
+        <div class="logo">HIT</div>
+
+        <ul class="menu" id="menuList">
+            <li class="active">Home</li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Our Works</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button class="contact-btn" id="contact">Contact Us</button>
+
+        <!-- Mobile Menu Icon -->
+        <div class="hamburger" id="hamburger">☰</div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+
+        <!-- Left Content -->
+        <div class="hero-text">
+            <p class="welcome">WELCOME TO MY WORLD ✨</p>
+
+            <h1>Hi, I'm <span class="name">Hitesh Sao</span></h1>
+
+            <h2 class="role">PHP DEVELOPER</h2>
+
+            <p class="desc">
+                writing clean, well-designed PHP code to build and maintain web applications,
+                troubleshooting, testing, and database management.
+            </p>
+
+            <div class="buttons">
+                
+                <button class="btn-outline">Download CV</button>
+            </div>
+
+            <div class="social-icons"> 
+                <a href="#" class="icon instagram"><i class="fab fa-instagram"></i></a> 
+                <a href="#" class="icon linkedin"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="icon github"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+
+        <!-- Right Image -->
+        <div class="hero-img">
+            <div class="frame-box">
+                <img src="assets/hit.png" class="hero-photo" alt="Hitesh Image">
+            </div>
+
+            <div class="down-btn" id="scrollDown">↓</div>
+        </div>
+
+
+    </section>
+
+    <!-- ================= ABOUT SECTION ================= -->
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <div class="about-img-box">
+                 <img src="assets/hit.png" class="about-photo" alt="About Image">
+            </div>
+
+            <div class="about-right">
+                <h2 class="section-title">About Me</h2>
+                <h3 class="about-heading">A Passionate PHP Developer</h3>
+
+                <p class="about-text">
+                    skills in HTML, CSS, JavaScript, Tailwind, MySQL, PHP and Laravel(Basic),
+
+                </p>
+
+                <div class="about-stats">
+                    <div class="stat-box">
+                        <h3>0.3</h3>
+                        <p>Years Experience</p>
+                    </div>
+
+                    <div class="stat-box">
+                        <h3>3</h3>
+                        <p>Completed Projects</p>
+                    </div>
+
+                    <div class="stat-box">
+                        <h3>15+</h3>
+                        <p>Happy Clients</p>
+                    </div>
+                </div>
+
+                <a href="#" class="btn-primary">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= SERVICES SECTION ================= -->
+    <section id="services" class="services-section">
+        <h2 class="section-title">My Skills</h2>
+
+        <div class="services-container">
+
+             
+
+            <div class="service-box">
+                <img src="assets/html.png" class="service-icon">
+                <img src="assets/css1.png" class="service-icon">
+                <img src="assets/js1.png" class="service-icon">
+                <h3>Frontend Development</h3>
+                <p>Using HTML, CSS, JS, Bootstrap or Tailwind to build responsive websites.</p>
+            </div>
+
+            <div class="service-box">
+                <img src="assets/php.png" class="service-icon">
+                <img src="assets/sql.png" class="service-icon">
+                <img src="assets/laravel.png" class="service-icon">
+                <h3>Backend Development</h3>
+                <p>PHP & MySQL based powerful backend and dynamic website development.</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ================= PROJECTS SECTION ================= -->
+    <section id="projects" class="projects-section">
+        <h2 class="section-title">Service</h2>
+
+        <div class="project-container">
+
+            <div class="project-box">
+                <img src="photo.jpg" class="project-img">
+                <div class="project-info">
+                    <h3>Portfolio Website</h3>
+                    <p>Modern UI/UX portfolio using HTML, CSS, JS.</p>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="photo.jpg" class="project-img">
+                <div class="project-info">
+                    <h3>E-commerce Website</h3>
+                    <p>PHP MySQL product system with cart & checkout.</p>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="photo.jpg" class="project-img">
+                <div class="project-info">
+                    <h3>Business Landing Page</h3>
+                    <p>Fully responsive marketing landing page.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================= CONTACT SECTION ================= -->
+    <section id="contact" class="contact-section">
+
+        <h2 class="section-title">Contact Me</h2>
+
+        <div class="contact-wrapper">
+
+            <!-- LEFT SIDE CONTACT INFO -->
+            <div class="contact-left">
+                <h3 class="contact-heading">Get In Touch</h3>
+
+                <p><strong>Name:</strong> Hitesh Sao</p>
+                <p><strong>Phone:</strong> 9131701489</p>
+                <p><strong>Email:</strong> hiteshsao1213@gmail.com</p>
+                <p><strong>Address:</strong> Raigarh, Chhattisgarh – 496001</p>
+
+                <div class="social-icons"> 
+                <a href="#" class="icon instagram"><i class="fab fa-instagram"></i></a> 
+                <a href="#" class="icon linkedin"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="icon github"><i class="fab fa-github"></i></a>
+            </div>
+            </div>
+
+            <!-- RIGHT SIDE FORM -->
+            <div class="contact-right">
+                <form action="send-message.php" method="POST" class="contact-form">
+
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Email Address" required>
+                    <input type="text" name="subject" placeholder="Subject" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+
+                    <button type="submit" class="btn-primary">Send Message</button>
+
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
